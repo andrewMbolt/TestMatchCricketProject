@@ -1,0 +1,6 @@
+This is a repository for test match cricket data collected from https://cricsheet.org/downloads/#experimental 
+Male test match cricket data is selected for and downloaded in CSV file format.
+
+This format needs further processing in order to be readable as standard CSV files since each file contains a header with match informatioon containing a different number of columns to the remainder of the file which contains information about each delivery in the match. 'test_match_data_processing' is used to split the header from the remaining information and save each file as a new CSV file with the suffix '_header' and '_stats' respectively.
+
+Note that these statistics are not exhaustive. The records only extend back to 2009. Future updates for new matches occur semi-regularly. The statistics also do not contain fielding data (ie who took a catch, made a runout) or team lists (players on each team for the match).
