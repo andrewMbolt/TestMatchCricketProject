@@ -1,0 +1,15 @@
+This folder contains data from test_csv_male folder processed by 'test_match_data_processing'. The four files are:
+
+ball_by_ball_stats.csv
+  This contains a complete ball by ball breakdown of every match. This contains columns such as match_id, over, bowler, batsman, runs, extras etc.
+  
+batting_stats.csv
+  This contains aggregate match by match statistics for players. Columns include match_id, run, out, balls_faced etc.
+  
+bowling_stats.csv
+  This contains aggregate match by match stastistics for players. Columns include match_id wickets, deliveries, runs_conceded etc.
+
+match_information.csv
+  This contains summary match information for each match. Columns include home_team, away_team, winner, toss_winner, toss_decision etc.
+
+Each of these csv files can be imported as a dataframes. The dataframes can be joined on columns when data from multiple dataframes are required. Of particukar use is match_id which is a unique number assigned to each match and appears in each dataframe.
